@@ -1,0 +1,60 @@
+{
+  "name": "my-app",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "singleQuote": true,
+    "overrides": [
+      {
+        "files": "*.html",
+        "options": {
+          "parser": "angular"
+        }
+      }
+    ]
+  },
+  "private": true,
+  "packageManager": "npm@11.6.2",
+  "dependencies": {
+    "@angular/common": "^21.0.0",
+    "@angular/compiler": "^21.0.0",
+    "@angular/core": "^21.0.0",
+    "@angular/forms": "^21.0.0",
+    "@angular/platform-browser": "^21.0.0",
+    "@angular/router": "^21.0.0",
+    "@syncfusion/ej2-angular-spreadsheet": "^32.1.20",
+    "@syncfusion/ej2-locale": "^32.1.19",
+    "@syncfusion/ej2-angular-base": "*",
+    "@syncfusion/ej2-angular-grids": "*",
+    "@syncfusion/ej2-base": "*",
+    "@syncfusion/ej2-buttons": "*",
+    "@syncfusion/ej2-calendars": "*",
+    "@syncfusion/ej2-dropdowns": "*",
+    "@syncfusion/ej2-grids": "*",
+    "@syncfusion/ej2-inputs": "*",
+    "@syncfusion/ej2-lists": "*",
+    "@syncfusion/ej2-navigations": "*",
+    "@syncfusion/ej2-popups": "*",
+    "@syncfusion/ej2-splitbuttons": "*",
+    "@syncfusion/ej2-spreadsheet": "*",
+    "@syncfusion/ej2-angular-dropdowns": "*",
+    "cldr-data": "^36.0.4",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0"
+  },
+  "devDependencies": {
+    "@angular/build": "^21.0.4",
+    "@angular/cli": "^21.0.4",
+    "@angular/compiler-cli": "^21.0.0",
+    "jsdom": "^27.1.0",
+    "typescript": "~5.9.2",
+    "vitest": "^4.0.8"
+  }
+}
