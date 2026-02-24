@@ -1,0 +1,1 @@
+# syncfusion-angular-spreadsheet-globalization-localization
